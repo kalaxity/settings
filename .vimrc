@@ -15,6 +15,8 @@ set shiftwidth=2
 set softtabstop=2
 " ファイル内のタブ文字の表示幅
 set tabstop=2
+" タブ入力時にタブ文字のかわりにスペースを入力する
+set expandtab
 
 " ステータス行を常に表示
 set laststatus=2
