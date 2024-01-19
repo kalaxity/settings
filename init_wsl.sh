@@ -11,5 +11,5 @@ sudo apt install build-essential gdb git netdiscover nmap python3 tree unar zsh 
 sudo apt upgrade -y
 
 # zsh関係: vimrcどうするかも検討したい
-wget https://raw.githubusercontent.com/kalaxity/vimrc/main/.zshrc
+wget https://raw.githubusercontent.com/kalaxity/init/main/.zshrc
 sudo chsh -s $(which zsh) $(whoami)
